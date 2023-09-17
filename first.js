@@ -7,10 +7,11 @@ var b = 36;
 var isLove = true;
 // console.log(typeof (isLove));
 // console.log(typeof (a))
-console.log(parseFloat(a + b));
-var c = 1.23;
-var d = 8.69;
+// console.log(parseFloat(a + b));
+var c = .5;
+var d = .2;
 totalSum = c + d;
+// console.log(totalSum);
 // console.log(totalSum.toFixed(2));
 // console.log(parseInt(totalSum))
 var cat1 = 56;
@@ -21,10 +22,14 @@ var catName = cat1 + cat2;
 
 
 var friendsName = ['mahfuz', 'murad', 'ahdan', 'hridoy', 'chuppu']
+var element = friendsName[3];
+// console.log(element)
 
 friendsName[2] = 'ahsan';
-friendsName[2] = 'santu buri'
-friendsName[4] = 'tinku'
+friendsName[2] = 'santu buri';
+friendsName[4] = 'tinku';
+var player = friendsName.indexOf('tinku');
+// console.log(player)
 // console.log(friendsName[1]);
 // console.log(friendsName.length)
 
