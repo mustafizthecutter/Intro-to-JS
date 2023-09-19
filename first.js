@@ -1,5 +1,7 @@
 //------------- Problems-1----------------
-var fruits = ["apple", "banana", "Orange"];
+// var fruits = ["apple", "banana", "Orange"];
+// fruits.splice(1, 0, "watermelon");
+// console.log(fruits);
 // index of Banana
 // var indexOfBanana = fruits.indexOf("banana");
 // console.log(indexOfBanana);
@@ -21,24 +23,8 @@ var fruits = ["apple", "banana", "Orange"];
 // console.log(fruits);
 // fruits.shift()
 // fruits.unshift(34)
-console.log(fruits);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// var itemRemoved = fruits.splice(2, 1)
+// console.log(fruits);
 
 // var num1 = 56;
 // var num2 = 98;
