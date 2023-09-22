@@ -1,7 +1,13 @@
-function add(num1, num2) {
-    var sum = num1 + num2;
-    return sum;
+// function add(num1, num2) {
+//     var sum = num1 + num2;
+//     return sum;
+// }
+// var result1 = add(26, 32);
+// var result2 = add(28, 72);
+// var result3 = add(97, 35);
+
+function add() {
+    return 'kire';
+    return 'koi jas'
 }
-var result1 = add(26, 32);
-var result2 = add(28, 72);
-var result3 = add(97, 35);
+console.log(add());

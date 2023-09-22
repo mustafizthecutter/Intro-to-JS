@@ -11,7 +11,7 @@ var memoryCount = phone.memory;
 // console.log(memoryCount);
 var memoryCount2 = phone['memory'];
 // console.log(memoryCount2);
-// var weightUpdate = 'color'
+var weightUpdate = 'color'
 var weightUpdated = phone[weightUpdate];
 // console.log(weightUpdated, weightUpdate)
 var properties = Object.keys(phone);
