@@ -1,11 +1,11 @@
+// All the Logics of being a Loop Year
 function getLeapYear(year) {
-    const getYear = year % 4;
-    if (getYear === 0) {
+    if ((0 == year % 4) && (0 != year % 100) || (0 == year % 400)) {
         return true;
     }
     else {
         return false;
     }
 }
-const isLeapYear = getLeapYear(2023);
-console.log(isLeapYear);
+const year = getLeapYear(2021);
+console.log(year);
