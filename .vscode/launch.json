@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\sum-array.js"
+            "program": "${workspaceFolder}\\hour-minutes.js"
         }
     ]
 }
