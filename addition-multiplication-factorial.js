@@ -52,7 +52,7 @@
 
 
 
-// factorial solving reverse way of 5!
+// factorial solving reverse way of 5! by for loop
 
 
 
@@ -69,15 +69,48 @@
 
 
 
-// factorial solving normal way of 5!
+// factorial solving normal way of 5! by for loop
 
 // function factorial(numbers) {
 //     let multiply = 1;
 //     for (let i = numbers; i >= 1; i--) {
 //         multiply = multiply * i;
-//         console.log(i, multiply);
+
 //     }
 //     return multiply;
 // }
-// const resultOfMultiply = factorial(5);
-// console.log(resultOfMultiply);
+// const number = 5;
+// const resultOfMultiply = factorial(number);
+// console.log(number, resultOfMultiply);
+
+
+// factorial solving normal way of 5! by while loop
+
+
+// function factorial(numbers) {
+//     let i = 1;
+//     let multiply = 1;
+//     while (i <= numbers) {
+//         multiply = multiply * i;
+//         i++;
+//     }
+//     return multiply;
+// }
+// const multiplyNumbers = factorial(5);
+// console.log(multiplyNumbers);
+
+
+// factorial solving reverse way of 5! by while loop
+
+
+// function factorial(numbers) {
+//     let i = numbers;
+//     let multiply = 1;
+//     while (i >= 1) {
+//         multiply = multiply * i;
+//         i--;
+//     }
+//     return multiply;
+// }
+// const multiplyNumbers = factorial(5);
+// console.log(multiplyNumbers);
